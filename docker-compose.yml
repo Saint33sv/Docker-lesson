@@ -1,0 +1,9 @@
+version: '2'
+
+
+services:
+  lesson:
+    image: docker-lesson
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+
